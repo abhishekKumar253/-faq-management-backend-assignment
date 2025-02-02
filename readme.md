@@ -25,7 +25,7 @@ To get the project up and running, follow the instructions below:
 
 ### 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/faq-management.git
+git clone https://github.com/abhishekKumar253/-faq-management-backend-assignment
 cd faq-management
 
 2. Install dependencies:
@@ -48,7 +48,10 @@ API Usage Examples
 Endpoint: GET /api/faqs/get-faqs
 
 Example Request (English FAQs):
-curl -X GET "http://localhost:5000/api/faqs/get-faqs?lang=en"
+ GET "http://localhost:5000/api/faqs/get-faqs?lang=en"
+
+Example Request (Spanish FAQs):
+GET "http://localhost:5000/api/faqs/get-faqs?lang=es"
 
 Example Response:
 [
